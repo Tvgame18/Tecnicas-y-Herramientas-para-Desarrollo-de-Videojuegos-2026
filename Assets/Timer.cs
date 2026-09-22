@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class Timer : MonoBehaviour
 {
-
     public float Tiempo = 0f;
     public bool TimerOn = true;
     public float Tiempomaximo = 10f;
@@ -21,7 +20,7 @@ public class Timer : MonoBehaviour
     void Update()
     {
         //LogicaTimer();
-        LogicaCuentaRegresiva();
+        //LogicaCuentaRegresiva();
     }
 
     void LogicaTimer()
